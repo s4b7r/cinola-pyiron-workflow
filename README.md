@@ -1,4 +1,4 @@
-# README
+# CINOLA pyiron Workflow
 
 ## Setup
 
