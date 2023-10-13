@@ -8,6 +8,10 @@
 4. Install Python requirements: The last tested environment is in `requirements-freeze.txt`.
 5. See `magnetic_monte_carlo-multishell.ipynb`.
 
+## Citation & Attribution
+
+If you use this software for an academic publication, please give proper attribution: This can be done by citing the code directly by the original author's full name (Simon Bekemeier) and its original GitHub URL: https://github.com/s4b7r/cinola-pyiron-workflow
+
 ## Ipython Notebooks in Git
 
 Remeber to put the following filter into the repo's config:
