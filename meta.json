@@ -2,7 +2,7 @@
     "workflow_environment":"pyiron",
     "title": "Monte Carlo Spin Dynamic with CINOLA",
     "authors": [
-        "Simon Bekemeier <simon.bekemieer@hsbi.de>",
+        "Simon Bekemeier <simon.bekemeier@hsbi.de>",
         "Schröder, Christian <christian.schroeder@hsbi.de>"
     ],
     "description": "Spin dynamics example",
