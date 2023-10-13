@@ -1,0 +1,6 @@
+[submodule "pyiron/resources/dynamic/MyCinolaJob"]
+	path = pyiron/resources/dynamic/MyCinolaJob
+	url = https://git.ad.fh-bielefeld.de/CMSE/sbekemeier/_git/cinola-pyiron-job
+[submodule "samsstudio"]
+	path = samsstudio
+	url = https://github.com/samwaseda/sams-studio.git

@@ -1,0 +1,19 @@
+{
+    "workflow_environment":"pyiron",
+    "title": "Monte Carlo Spin Dynamic with CINOLA",
+    "authors": [
+        "Simon Bekemeier <simon.bekemieer@hsbi.de>",
+        "Schröder, Christian <christian.schroeder@hsbi.de>"
+    ],
+    "description": "Spin dynamics example",
+    "release": "0.0.1",
+    "keywords": [
+        "workflow",
+        "CINOLA",
+        "spin dynamics",
+        "monte carlo"
+    ],
+    "categories":[
+        "atomistics"
+    ]
+}

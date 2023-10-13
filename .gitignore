@@ -1,0 +1,16 @@
+.ipynb_checkpoints/
+**/__pycache__/
+
+# pyiron
+*.log
+pyiron-project/
+pyiron.db
+pyiron_base/
+pyiron-run/
+tmp-cinola-inputs/
+
+.vscode/*
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
