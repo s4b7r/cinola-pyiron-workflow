@@ -4,9 +4,10 @@
 
 1. Clone this repository.
 2. Make sure all git submodules are correctly loaded (recursively).
-3. See READMEs of submodules.
-4. Install Python requirements: The last tested environment is in `requirements-freeze.txt`.
-5. See `magnetic_monte_carlo-multishell.ipynb`.
+3. [Setup / compile Sam's studio's MC](https://github.com/samwaseda/sams-studio/tree/73307bf8f874a9df791a29f702e978d605c25469/MC)
+4. See READMEs of submodules.
+5. Install Python requirements: The last tested environment is in `requirements-freeze.txt`.
+6. See `magnetic_monte_carlo-multishell.ipynb`.
 
 ## Citation & Attribution
 
