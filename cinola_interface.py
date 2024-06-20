@@ -24,13 +24,11 @@ def get_num_neighbors_for_cinola(**kwargs):
     nums_of_neighbors = np.array(nums_of_neighbors)
 
 
-    assert len(set(nums_of_neighbors.flatten())) == 1
+    for nums_of_neighbors_oneatom in nums_of_neighbors:
+        assert np.all(nums_of_neighbors_oneatom == nums_of_neighbors[0])
 
-    num_neighbors = nums_of_neighbors[0][0]
-
-    assert np.all(nums_of_neighbors == num_neighbors)
-
-    num_neighbors_for_cinola = num_neighbors * num_shells
+    num_neighbors_max = max(nums_of_neighbors[0])
+    num_neighbors_for_cinola = num_neighbors_max * num_shells
 
     return num_neighbors_for_cinola
 
