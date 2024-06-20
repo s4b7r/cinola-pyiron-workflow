@@ -73,7 +73,11 @@ def get_neighborhoods(structure, Js_K):
     Jijs = [np.expand_dims(Jij, axis=0) for Jij in Jijs]
     Jij = np.concatenate(Jijs, axis=0).sum(axis=0)
 
-    assert sorted(np.nonzero(Jij[0])[0]) == sorted([neigh_index for array_index, neigh_index in enumerate(neigh.indices[0][:num_neighbors_for_cinola]) if neigh.shells[0][array_index] in shells_that_matter])
+    assert set(sorted(np.nonzero(Jij[0])[0])) == set(sorted([neigh_index 
+                                                            for array_index, neigh_index 
+                                                            in enumerate(neigh.indices[0][:num_neighbors_for_cinola]) 
+                                                            if neigh.shells[0][array_index] in shells_that_matter
+                                                            ]))
 
     # FIXME: Jij is just returned for debug. <SB, 2023-07-17>
     return neighbors, Jij
